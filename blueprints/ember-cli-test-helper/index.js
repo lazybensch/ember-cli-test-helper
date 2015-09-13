@@ -1,6 +1,6 @@
 module.exports = {
   name: 'ember-cli-test-helper',
-  description: 'Sets up test framework.',
+  description: 'Sets up test helpers.',
 
   normalizeEntityName: function(entityName) {
     return entityName || 'ember-qunit';
