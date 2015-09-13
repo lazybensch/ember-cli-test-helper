@@ -1,25 +1,11 @@
-# Ember-cli-test-helper
+# ember-cli-test-helper
 
-This README outlines the details of collaborating on this Ember addon.
+Scaffolds test helpers for ember-cli.
 
-## Installation
+## Usage
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+  ember generate ember-cli-test-helper <test-framework>
+```
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+When no framework is specified, defaults to `ember-qunit`.
