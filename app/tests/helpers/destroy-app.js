@@ -1,3 +1,3 @@
-import { destroyApp } from 'ember-cli-test-helper';
-
-export default destroyApp;
+export default function destroyApp(application) {
+  Ember.run(application, 'destroy');
+}
