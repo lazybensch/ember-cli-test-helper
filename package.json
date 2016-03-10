@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-test-helper",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Test helper blueprints for ember-cli",
   "repository": {
     "type": "git",
